@@ -175,7 +175,5 @@ iperf3 -u -c <server_ip> -B <client_ip> -b 100M -l 1200 -t 20
 iperf3 -c <server_ip> -B <client_ip> -t 20
 ```
 
-For rigorous reporting: separate TCP and UDP, report uplink and downlink separately,
-omit warm-up with `-O 3`, run multiple trials, and log JSON with `-J`. As with
-latency, phone-to-phone throughput hairpins through the controller across two air
-legs, so point the client at a wired LAN host for the device-to-edge figure.
+For rigorous reporting: Omit warm-up with `-O 3`, run multiple trials, and log JSON with `-J`. As with
+latency, phone-to-phone throughput hairpins through the controller across two air legs, so point the client at a wired LAN host for the device-to-edge figure.
