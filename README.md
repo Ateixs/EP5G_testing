@@ -24,7 +24,7 @@ research report.
 ## Requirements
 
 - **Python 3** (standard library only — no `pip install` needed).
-- On Android: **Termux** (install from F-Droid; the Play Store build is outdated).
+- On Android: **Termux**
 - Two endpoints on the EP5G network, each with the IP that NMP assigned to its PDU
   session (the `172.16.x.x` addresses in this lab).
 - No root required on either phone.
@@ -38,7 +38,7 @@ Python 3 is preinstalled on most Linux and macOS systems; on Windows install it 
 anywhere and run it. Nothing else to install.
 
 ```bash
-git clone <your-repo-url> EP5G_testing
+git clone https://github.com/Ateixs/EP5G_testing.git
 cd EP5G_testing
 python3 e2e_lat.py        # prints usage
 ```
